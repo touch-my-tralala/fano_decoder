@@ -57,9 +57,6 @@ def main():
 
 
     # plot create
-    #itp = interp1d(plotSNR, plotBER, kind='linear')
-    #yy_sg = savgol_filter(itp(plotSNR), 101, 3)
-
     plt.semilogy(plotSNR, plotBER)
     plt.xlabel('SNR(db)')
     plt.ylabel('BER')
